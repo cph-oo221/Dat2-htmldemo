@@ -51,7 +51,21 @@ footer
     width: 70px;
 }
 
+#UnderOverSkrift
+{
+    color: black;
+    font-size: 18px;
+    font-style: italic; /* kursiv - slet for at fjerne*/
+}
+
 /* on class uses . */
+.HTMLtitel
+{
+    color: #00163b;
+    font-size: 48px;
+
+}
+
 .labelnavn
 {
     float: left;
