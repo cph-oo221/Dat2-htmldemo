@@ -31,13 +31,14 @@ header
 
 footer
 {
-    display: flex;
+    display: flex; /* Vandret display*/
     justify-content: space-between; /* lige meget plads mellem */
     margin-top: 30px;
     border-top: 1px solid #00163b;
     padding-top: 10px;
 }
 
+/*on id uses #*/
 #navn
 {
     float: left;
@@ -50,6 +51,7 @@ footer
     width: 70px;
 }
 
+/* on class uses . */
 .labelnavn
 {
     float: left;
@@ -81,6 +83,6 @@ footer
 #demotable th
 {
     border: 1px solid silver;
-    color: red;
+    color: Black;
     padding: 10px;
 }
