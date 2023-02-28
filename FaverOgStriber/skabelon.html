@@ -10,7 +10,7 @@
 <body>
 
 <header>
-    <img src="res/logo_print.svg" alt="Logo for cph business"/>
+    <img src="logo.svg" height="75" alt="Logo for cph business"/>
 </header>
 
 <article>
@@ -42,9 +42,10 @@
         <h3>Her kommer der en formular</h3>
 
         <form action="modtagerside.html" method="post">
-
-            <label>Navn: </label> <input type="text" maxlength="50"/> <br/> <br/>
-            <label>Email: </label> <input type="text" maxlength="100"/> <br/> <br/>
+            <div class="formsection">
+                <div class="formitem"> <label class="labelnavn">Navn: </label> <input type="text" maxlength="50"/> <br/> <br/> </div>
+                <div class="formitem"> <label class="labelnavn">Email: </label> <input type="text" maxlength="100"/> <br/> <br/> </div>
+            </div>
 
             <input type="radio" name="gender" value="male" checked> Male<br/>
             <input type="radio" name="gender" value="female"> Female<br/>
@@ -68,10 +69,50 @@
         </form>
 
             <br/><br/>
+
+        <table id="demotable">
+            <thead>
+                <tr>
+                    <th>Første kolonne</th> <th>Anden</th> <th>Trdie</th> <th>Fjerde</th>
+                </tr>
+            </thead>
+
+            <tr>
+                <td>En</td> <td>To</td> <td>Tre</td> <td>Fire</td>
+            </tr>
+            <tr>
+                <td>Fem</td> <td>Seks</td> <td>Syv</td> <td>Otte</td>
+            </tr>
+        </table>
     </section>
 
+
+
     <footer>
-        footeren sakl indeholde diverse kontakt info og links
+        <div class="fopterItem">
+            <ul>
+                <li>Først element</li>
+                <li>Andet element</li>
+                <li>Tredie element</li>
+            </ul>
+        </div>
+
+        <div class="fopterItem">
+            <ul>
+                <li>Først link</li>
+                <li>Andet link</li>
+                <li>Tredie link</li>
+            </ul>
+        </div>
+
+        <div class="fopterItem">
+            <ul>
+                <li>Navn</li>
+                <li>navn</li>
+                <li>navn</li>
+            </ul>
+        </div>
+
     </footer>
 
 </article>
