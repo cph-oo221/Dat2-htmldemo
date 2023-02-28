@@ -32,7 +32,7 @@ header
 footer
 {
     display: flex; /* Vandret display*/
-    justify-content: space-between; /* lige meget plads mellem */
+    justify-content: space-between; /*LIGE MEGET PLADS MELLEM  */
     margin-top: 30px;
     border-top: 1px solid #00163b;
     padding-top: 10px;
@@ -55,10 +55,10 @@ footer
 {
     color: black;
     font-size: 18px;
-    font-style: italic; /* kursiv - slet for at fjerne*/
+    font-style: italic; /* KURSIV -SELT FOR ATFJERNE */
 }
 
-/* on class uses . */
+/* ON CLASS USES. */
 .HTMLtitel
 {
     color: #00163b;
@@ -70,6 +70,15 @@ footer
 {
     float: left;
     width: 70px;
+}
+
+.greenlabel
+{
+    color: green;
+}
+.redlabel
+{
+    color: red;
 }
 
 .formsection
